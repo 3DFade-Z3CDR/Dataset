@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns:model xmlns:ns="http://schemas.microsoft.com/3dmanufacturing/core/2015/02" unit="millimeter" xml:lang="en-US">
+  <ns:resources>
+    <ns:object id="1" name="PyramidObject" type="model">
+      <ns:mesh>
+        <ns:vertices>
+          <ns:vertex x="-10" y="-10" z="0" />
+          <ns:vertex x="10" y="-10" z="0" />
+          <ns:vertex x="0" y="0" z="40" />
+          <ns:vertex x="-10" y="10" z="0" />
+          <ns:vertex x="10" y="10" z="0" />
+          </ns:vertices>
+        <ns:triangles>
+          <ns:triangle v1="0" v2="1" v3="2" />
+          <ns:triangle v1="3" v2="1" v3="0" />
+          <ns:triangle v1="0" v2="2" v3="3" />
+          <ns:triangle v1="1" v2="4" v3="2" />
+          <ns:triangle v1="4" v2="3" v3="2" />
+          <ns:triangle v1="4" v2="1" v3="3" />
+          </ns:triangles>
+        </ns:mesh>
+      </ns:object>
+    <ns:object id="2" type="model">
+      <ns:mesh>
+        <ns:vertices>
+          <ns:vertex x="0" y="0" z="0" />
+          <ns:vertex x="10" y="0" z="0" />
+          <ns:vertex x="0" y="10" z="0" />
+          <ns:vertex x="0" y="0" z="10" />
+          <ns:vertex x="10" y="0" z="10" />
+          <ns:vertex x="0" y="10" z="10" />
+          </ns:vertices>
+        <ns:triangles>
+          <ns:triangle v1="1" v2="0" v3="2" />
+          <ns:triangle v1="4" v2="3" v3="5" />
+          <ns:triangle v1="0" v2="1" v3="4" />
+          <ns:triangle v1="4" v2="3" v3="0" />
+          <ns:triangle v1="2" v2="0" v3="3" />
+          <ns:triangle v1="3" v2="5" v3="2" />
+          <ns:triangle v1="5" v2="4" v3="1" />
+          <ns:triangle v1="1" v2="2" v3="5" />
+          </ns:triangles>
+        </ns:mesh>
+      </ns:object>
+    </ns:resources>
+  <ns:build>
+    <ns:item objectid="1" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    <ns:item objectid="2" transform="1 0 0 0 1 0 0 0 1 20 0 0" />
+    </ns:build>
+  </ns:model>
